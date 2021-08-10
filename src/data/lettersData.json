@@ -1,0 +1,20 @@
+{
+    "alef": {
+        "id": 1,
+        "localId":1,
+        "mistakeId":1,
+        "url":"https://www.merkazato.co.il/wp-content/uploads/2018/11/%D7%90-%D7%A0%D7%97%D7%9C%D7%AA-%D7%94%D7%9B%D7%9C%D7%9C-e1547632207748.png"
+    },
+    "bet": {
+        "id": 1,
+        "localId":1,
+        "mistakeId":1,
+        "url": "https://xn-----yldgdebb2bc9a3dhxkx.co.il/wp-content/uploads/2020/12/%D7%91.jpg"
+    },
+    "gimel": {
+        "id": 1,
+        "localId":1,
+        "mistakeId":1,
+        "url": "https://xn-----yldgdebb2bc9a3dhxkx.co.il/wp-content/uploads/2020/12/%D7%92.jpg"
+    }
+}
