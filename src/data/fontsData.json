@@ -1,18 +1,35 @@
 {
         "sefaradi": [
             {"name":"א","value":14220, 
-                "info":{"id": 1, "localId": 10, "mistakeId": null, "imgUrl": "https://www.merkazato.co.il/wp-content/uploads/2018/11/%D7%90-%D7%A0%D7%97%D7%9C%D7%AA-%D7%94%D7%9B%D7%9C%D7%9C-e1547632207748.png"
-                } 
+                "info": [
+                        {"id": 1, "localId": 100, "mistakeId": "תקינה", "imgUrl": "https://www.merkazato.co.il/wp-content/uploads/2018/11/%D7%90-%D7%A0%D7%97%D7%9C%D7%AA-%D7%94%D7%9B%D7%9C%D7%9C-e1547632207748.png"},
+                        {"id": 2, "localId": 101, "mistakeId": "תקינה", "imgUrl": "https://www.merkazato.co.il/wp-content/uploads/2018/11/%D7%90-%D7%A0%D7%97%D7%9C%D7%AA-%D7%94%D7%9B%D7%9C%D7%9C-e1547632207748.png"},
+                        {"id": 3, "localId": 102, "mistakeId": "לא תקינה", "imgUrl": "https://www.merkazato.co.il/wp-content/uploads/2018/11/%D7%90-%D7%A0%D7%97%D7%9C%D7%AA-%D7%94%D7%9B%D7%9C%D7%9C-e1547632207748.png"},
+                        {"id": 4, "localId": 103, "mistakeId": "תקינה", "imgUrl": "https://www.merkazato.co.il/wp-content/uploads/2018/11/%D7%90-%D7%A0%D7%97%D7%9C%D7%AA-%D7%94%D7%9B%D7%9C%D7%9C-e1547632207748.png"},
+                        {"id": 5, "localId": 104, "mistakeId": "לא תקינה", "imgUrl": "https://www.merkazato.co.il/wp-content/uploads/2018/11/%D7%90-%D7%A0%D7%97%D7%9C%D7%AA-%D7%94%D7%9B%D7%9C%D7%9C-e1547632207748.png"}
+                ]
+                   
             },
 
             {"name":"ב", "value":34568,
-                "info":{"id": 2, "localId": 20, "mistakeId": null, "imgUrl": "https://xn-----yldgdebb2bc9a3dhxkx.co.il/wp-content/uploads/2020/12/%D7%91.jpg"
-                }
+                "info": [
+                    {"id": 6, "localId": 201, "mistakeId": null, "imgUrl": "https://xn-----yldgdebb2bc9a3dhxkx.co.il/wp-content/uploads/2020/12/%D7%91.jpg"},
+                    {"id": 7, "localId": 202, "mistakeId": null, "imgUrl": "https://xn-----yldgdebb2bc9a3dhxkx.co.il/wp-content/uploads/2020/12/%D7%91.jpg"},
+                    {"id": 8, "localId": 203, "mistakeId": null, "imgUrl": "https://xn-----yldgdebb2bc9a3dhxkx.co.il/wp-content/uploads/2020/12/%D7%91.jpg"},
+                    {"id": 9, "localId": 204, "mistakeId": null, "imgUrl": "https://xn-----yldgdebb2bc9a3dhxkx.co.il/wp-content/uploads/2020/12/%D7%91.jpg"},
+                    {"id": 10, "localId": 205, "mistakeId": null, "imgUrl": "https://xn-----yldgdebb2bc9a3dhxkx.co.il/wp-content/uploads/2020/12/%D7%91.jpg"}
+                ]
+                   
             },
             
             {"name":"ג","value":1220,
-                "info":{"id":3, "localId":30, "mistakeId":null, "imgUrl": "https://xn-----yldgdebb2bc9a3dhxkx.co.il/wp-content/uploads/2020/12/%D7%92.jpg"
-                }
+                "info":[
+                   {"id":11, "localId":300, "mistakeId":null, "imgUrl": "https://xn-----yldgdebb2bc9a3dhxkx.co.il/wp-content/uploads/2020/12/%D7%92.jpg"},
+                   {"id":12, "localId":301, "mistakeId":null, "imgUrl": "https://xn-----yldgdebb2bc9a3dhxkx.co.il/wp-content/uploads/2020/12/%D7%92.jpg"},
+                   {"id":13, "localId":302, "mistakeId":null, "imgUrl": "https://xn-----yldgdebb2bc9a3dhxkx.co.il/wp-content/uploads/2020/12/%D7%92.jpg"},
+                   {"id":14, "localId":303, "mistakeId":null, "imgUrl": "https://xn-----yldgdebb2bc9a3dhxkx.co.il/wp-content/uploads/2020/12/%D7%92.jpg"},
+                   {"id":15, "localId":304, "mistakeId":null, "imgUrl": "https://xn-----yldgdebb2bc9a3dhxkx.co.il/wp-content/uploads/2020/12/%D7%92.jpg"}
+                ]       
             },
 
             {"name":"ד", "value":7734568},

@@ -11,10 +11,9 @@ const alefSefardiValue = fontsData.sefaradi[0].value;
 const DisplayData = props => {
     return(
         <div>
-            <p className="showData">{alefSefardiName}</p>
-            <p className="showData">{alefSefardiValue}</p>
+            <p className="showData" >{alefSefardiName} = {alefSefardiValue} {props.cliked}</p>
             {/* <ul>
-                {alefSefardi.map(i => (<li>{i}</li>))}
+                {SefardiNames.map(i => (<li>{i}</li>))}
             </ul>  */}
         </div>
   );
