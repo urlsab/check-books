@@ -4,17 +4,24 @@ import './SelectFont.css';
 import DisplayData from '../DisplayData/DisplayData';
 
 import fontsData from '../../data/fontsData.json';
-import lettersData from '../../data/lettersData.json';
 
-const sefaradiFont = fontsData.sefaradi;
-const betYosefFont = fontsData.betYosef;
-const haariFont = fontsData.haari;
+const alefSefardiName = fontsData.sefaradi[0].name;
+const alefSefardiValue = fontsData.sefaradi[0].value;
+
+const showData = () => {
+    console.log(`${alefSefardiName}=${alefSefardiValue}`);
+}
+
+// console.log(`${alefSefardiName}=${alefSefardiValue}`);
+
+// const showData = <DisplayData /> ;
+
 
 const SelectFont = (props) => {
     return(
         <div>
-           <select onChange={sefaradiFont}>
-                <option>ספרדי</option>
+           <select>
+                <option onClick={showData()}>ספרדי</option>
                 <option>בית יוסף</option>
                 <option>האר"י</option>
                 <option>אשכנזי</option>

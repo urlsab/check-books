@@ -11,12 +11,10 @@ import Home from './components/Home/Home';
 import Projects from './components/Projects/Projects';
 import Navbar from './components/Navbar/Navbar';
 
-
 const App = props => {
   return (
       <React.Fragment>
       <Navbar />
-      
       <main>
           <Switch>
             <Route path="/" exact component={Home} />
