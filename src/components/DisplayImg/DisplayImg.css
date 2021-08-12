@@ -1,3 +1,7 @@
+.showLocalId {
+    border: 3px solid red;
+}
+
 .showImg {
     border: 2px solid blue;
     background-color: ivory;

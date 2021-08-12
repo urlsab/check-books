@@ -27,7 +27,7 @@ const App = props => {
       </main>
       <DisplayData />
       <DisplayErrors />
-      <DisplayImg />
+      <DisplayImg /> 
     </React.Fragment> 
   );
 }

@@ -2,3 +2,8 @@
     color: black;
     font-size: 10px;
 }
+
+.showLetters {
+    border: 4px solid green;
+    margin-top: 90px;
+}
