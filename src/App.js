@@ -11,10 +11,6 @@ import Home from './components/Home/Home';
 import Projects from './components/Projects/Projects';
 import Navbar from './components/Navbar/Navbar';
 
-import DisplayData from './components/DisplayData/DisplayData';
-import DisplayErrors from './components/DisplayErrors/DisplayErrors';
-import DisplayImg from './components/DisplayImg/DisplayImg';
-
 const App = () => {
 
   return (
@@ -26,9 +22,6 @@ const App = () => {
             <Route path="/search" component={Projects} />
           </Switch>
       </main>
-      {/* <DisplayData /> */}
-      {/* <DisplayErrors /> */}
-      {/* <DisplayImg />  */}
     </React.Fragment> 
   );
 }
