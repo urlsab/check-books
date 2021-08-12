@@ -15,7 +15,8 @@ import DisplayData from './components/DisplayData/DisplayData';
 import DisplayErrors from './components/DisplayErrors/DisplayErrors';
 import DisplayImg from './components/DisplayImg/DisplayImg';
 
-const App = props => {
+const App = () => {
+
   return (
       <React.Fragment>
       <Navbar />
@@ -25,9 +26,9 @@ const App = props => {
             <Route path="/search" component={Projects} />
           </Switch>
       </main>
-      <DisplayData />
-      <DisplayErrors />
-      <DisplayImg /> 
+      {/* <DisplayData /> */}
+      {/* <DisplayErrors /> */}
+      {/* <DisplayImg />  */}
     </React.Fragment> 
   );
 }
