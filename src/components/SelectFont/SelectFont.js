@@ -20,12 +20,12 @@ const SelectFont = () => {
     }
 
     return(
-        <div>
-           <select className="styleSelect" onChange={handleFontChange} >
+        <div className="styleSelect">
+           <select onChange={handleFontChange} >
                 <option value="ספרדי">
                     ספרדי
                 </option>
-                <option value="betYosef">בית יוסף</option>
+                <option value="betYosef" selected >בית יוסף</option>
                 <option value="haari" >האר"י</option>
                 <option value="אשכנזי">"אשכנזי</option>
                 <option value="תימני">"תימני</option>

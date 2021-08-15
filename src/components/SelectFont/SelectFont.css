@@ -1,3 +1,6 @@
 .styleSelect {
-    color: purple;
+    color: black;;
+    text-align: center;
+    justify-content:center;
+    align-items: center;
 }

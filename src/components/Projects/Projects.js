@@ -1,9 +1,9 @@
 import React from 'react';
 import './Projects.css';
 
-const Projects = props => {
+const Projects = () => {
     return(
-        <div>
+        <div className="showProjects">
             <p>פרויקטים</p>
         </div>
   );
