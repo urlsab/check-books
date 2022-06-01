@@ -1,8 +1,12 @@
 .showLocalId {
     border: 3px solid red;
+    margin-left: -300px;
+    margin-top: -23500px;
+
 }
 
 .showImg {
     border: 2px solid blue;
     background-color: ivory;
+    margin-right: 10px;
 }

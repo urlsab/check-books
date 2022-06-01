@@ -1,29 +1,41 @@
 import React, { useState } from 'react';
-
 import './DisplayData.css';
-
 import fontsData from '../../data/fontsData.json';
 import DisplayErrors from '../DisplayErrors/DisplayErrors';
 
-const SefardiLetters = fontsData.sefaradi;
+const sefardiLetters = fontsData.sefaradi;
+// console.log(sefardiLetters);
 
-// console.log(`${alefSefardiName}=${alefSefardiValue}`);
+ const DisplayData = () => {
 
-const DisplayData = () => {
+    const [clicked, setClicked] = useState(false);
 
-    const [cliked, setCliked] = useState(false);
+    // const renderMistakeId = (letter) => {
+    //     sefardiLetters.filter(i => i.name === letter).map(j=> 
+    //         (j.info.map(k=> (<h6> {k.mistakeId} </h6>))))
+    // }
 
-    return(
+    // const renderFakeData = () => {
+    //     return (
+    //         fakeSefaradi.flatMap(i => 
+    //             (<p key={i} className="showData" onClick={ () => {setClicked(true);
+    //             //    {renderMistakeId(i.name)}
+    //             } }> {i.info} = {i.mistakeId} </p>)
+    //         )        
+    //     );
+    // }
+
+    const renderData = () => {
+        return (
+            sefardiLetters.map (i => (<p key={i} className="showData" onClick={ () => {setClicked(true);
+            } } > {i.value} = {i.name} </p>))
+        );
+    }
+
+    return (
         <div className="showLetters">
-            <ul>
-                {SefardiLetters.map(i => 
-                    (<p className="showData" 
-                        onClick={ () => {setCliked(true); } }
-                    >
-                    {i.name} = {i.value}</p>)
-                )}
-            </ul>
-            {cliked ? <DisplayErrors /> : null } 
+            <ul> {renderData()} </ul>
+            {/* {clicked ? <DisplayErrors /> : null} */}
         </div>
   );
 }
